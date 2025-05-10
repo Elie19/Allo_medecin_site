@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rendez-vous - Allo_Medecin</title>
+    <link rel="stylesheet" href="../../css/styles.css">
+    <link rel="stylesheet" href="../../css/patient.css">
+</head>
+<body>
+    <div class="patient-layout">
+        <aside class="patient-sidebar">
+            <!-- Même sidebar que dashboard.html -->
+        </aside>
+
+        <main class="patient-main">
+            <h1>Prendre un rendez-vous</h1>
+            
+            <div class="appointment-filters">
+                <select>
+                    <option>Spécialité</option>
+                    <option>Généraliste</option>
+                    <option>Cardiologue</option>
+                </select>
+                <select>
+                    <option>Localisation</option>
+                    <option>Cotonou</option>
+                    <option>Porto-Novo</option>
+                </select>
+            </div>
+
+            <div class="doctors-list">
+                <div class="doctor-card">
+                    <img src="../../images/doctor1.jpg" alt="Dr. Dupont">
+                    <div class="doctor-info">
+                        <h3>Dr. Jean Dupont</h3>
+                        <p>Généraliste</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Cotonou</p>
+                        <button class="btn btn-primary">Prendre RDV</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>

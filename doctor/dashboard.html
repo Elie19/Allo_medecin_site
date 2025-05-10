@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tableau de bord Médecin - Allo_Medecin</title>
+    <link rel="stylesheet" href="../../css/styles.css">
+    <link rel="stylesheet" href="../../css/doctor.css">
+</head>
+<body>
+    <div class="doctor-layout">
+        <aside class="doctor-sidebar">
+            <div class="doctor-profile">
+                <img src="../../images/doctor-avatar.jpg" alt="Profil">
+                <h3>Dr. Jean Dupont</h3>
+                <p>Généraliste</p>
+            </div>
+            <nav class="doctor-menu">
+                <a href="dashboard.html" class="active"><i class="fas fa-home"></i> Tableau de bord</a>
+                <a href="consultations.html"><i class="fas fa-calendar-check"></i> Consultations</a>
+                <a href="prescriptions.html"><i class="fas fa-prescription"></i> Prescriptions</a>
+                <a href="profile.html"><i class="fas fa-user-md"></i> Profil</a>
+            </nav>
+        </aside>
+
+        <main class="doctor-main">
+            <h1>Tableau de bord</h1>
+            
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <h3>RDV aujourd'hui</h3>
+                    <p class="stat-value">5</p>
+                </div>
+                <div class="stat-card">
+                    <h3>Patients</h3>
+                    <p class="stat-value">42</p>
+                </div>
+            </div>
+
+            <div class="upcoming-appointments">
+                <h2>Prochains RDV</h2>
+                <div class="appointment-list">
+                    <div class="appointment-item">
+                        <p class="appointment-time">09:00</p>
+                        <p class="appointment-patient">M. Koffi Adjo</p>
+                        <button class="btn btn-sm btn-primary">Démarrer</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>

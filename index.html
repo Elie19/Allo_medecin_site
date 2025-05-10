@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Allo_Medecin</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">Allo<span>_Medecin</span></a>
+            <div class="nav-links">
+                <a href="#features">Fonctionnalités</a>
+                <a href="#services">Services</a>
+                <a href="about.html">À propos</a>
+                <div class="language-selector">
+                    <select>
+                        <option value="fr">Français</option>
+                        <option value="fon">Fon</option>
+                        <option value="yor">Yoruba</option>
+                    </select>
+                </div>
+                <div class="auth-buttons">
+                    <a href="auth/login.html" class="btn btn-outline">Connexion</a>
+                    <a href="auth/register.html" class="btn btn-primary">Inscription</a>
+                </div>
+            </div>
+            <button class="hamburger">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Votre santé, notre priorité</h1>
+                <p>Accédez à des soins médicaux de qualité où que vous soyez</p>
+                <div class="hero-buttons">
+                    <a href="patient/appointments.html" class="btn btn-primary">Prendre RDV</a>
+                    <a href="#features" class="btn btn-outline">Découvrir</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="images/hero-image.png" alt="Application mobile">
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="features-section">
+        <div class="container">
+            <h2>Nos fonctionnalités</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <i class="fas fa-calendar-alt feature-icon"></i>
+                    <h3>Prise de RDV</h3>
+                    <p>Prenez rendez-vous en ligne avec des médecins qualifiés</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-video feature-icon"></i>
+                    <h3>Consultation en ligne</h3>
+                    <p>Consultez un médecin depuis chez vous</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-file-medical feature-icon"></i>
+                    <h3>Dossier médical</h3>
+                    <p>Accédez à vos documents de santé sécurisés</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Allo_Medecin. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
